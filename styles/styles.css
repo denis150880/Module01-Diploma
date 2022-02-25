@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1143px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Логотип */
+.header-logo{
+    display: block;
+    background-image: url(../files/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    width: 97px;
+    height: 30px;
+    margin-left: 2px;
+}
+
+/* Соц сети шапка */
+.header-icon{
+    display: flex;
+    margin-right:0;
+    justify-content: space-between;
+    padding: 0;
+    gap: 30px;
+}
+
+.header-in, 
+.header-fb {  
+    background-color: transparent;
+    outline: none;
+    opacity: 0.8;/*прозрачности элемента*/
+    border: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.header-in:hover, 
+.header-fb:hover{
+    transform: scale(1.26);/*трансформации */
+    transition: .3s;
+    opacity: 1;
+}
+
+/* Меню */
+.header-nav{
+    display: flex;
+    padding: 0;
+    gap: 55px;
+}
+
+.header-nav a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.15
+}
+
+.header-nav a:hover{
+    color: #2B3541;
+    border-bottom: 1px solid #2B3541;
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+/* Шапка */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+    padding-bottom: 25px;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 58%;
+}
+
+
+
